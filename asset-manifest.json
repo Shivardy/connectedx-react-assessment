@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/connectedx-react-assessment/static/css/main.8892e6fd.chunk.css",
+    "main.js": "/connectedx-react-assessment/static/js/main.20b7df12.chunk.js",
+    "main.js.map": "/connectedx-react-assessment/static/js/main.20b7df12.chunk.js.map",
+    "runtime-main.js": "/connectedx-react-assessment/static/js/runtime-main.ba3a9b08.js",
+    "runtime-main.js.map": "/connectedx-react-assessment/static/js/runtime-main.ba3a9b08.js.map",
+    "static/js/2.ae5c47a1.chunk.js": "/connectedx-react-assessment/static/js/2.ae5c47a1.chunk.js",
+    "static/js/2.ae5c47a1.chunk.js.map": "/connectedx-react-assessment/static/js/2.ae5c47a1.chunk.js.map",
+    "static/js/3.7f5cf353.chunk.js": "/connectedx-react-assessment/static/js/3.7f5cf353.chunk.js",
+    "static/js/3.7f5cf353.chunk.js.map": "/connectedx-react-assessment/static/js/3.7f5cf353.chunk.js.map",
+    "index.html": "/connectedx-react-assessment/index.html",
+    "static/css/main.8892e6fd.chunk.css.map": "/connectedx-react-assessment/static/css/main.8892e6fd.chunk.css.map",
+    "static/js/2.ae5c47a1.chunk.js.LICENSE.txt": "/connectedx-react-assessment/static/js/2.ae5c47a1.chunk.js.LICENSE.txt",
+    "static/media/getFetch.cjs": "/connectedx-react-assessment/static/media/getFetch.d7d6010d.cjs"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ba3a9b08.js",
+    "static/js/2.ae5c47a1.chunk.js",
+    "static/css/main.8892e6fd.chunk.css",
+    "static/js/main.20b7df12.chunk.js"
+  ]
+}
