@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# ConnectedX React App Assessment
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 This is just a sample app as part of a take home assessment from ConnectedX.
