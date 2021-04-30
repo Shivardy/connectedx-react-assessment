@@ -5,7 +5,7 @@ const HomePage = () => {
   const { t } = useTranslation();
 
   return (
-    <main className="main" data-testid= "homepage">
+    <main className="main" data-testid="homepage">
       <h1>{t('homepage.intro')}</h1>
       <p>
         <Trans components={{ bold: <strong />, italic: <i /> }}>

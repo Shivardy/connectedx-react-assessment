@@ -14,5 +14,9 @@ export const AppContextProvider = ({ children }) => {
     dispatch,
   };
 
-  return <ApplicationContext.Provider value={contextValue}>{children}</ApplicationContext.Provider>;
+  return (
+    <ApplicationContext.Provider value={contextValue}>
+      {children}
+    </ApplicationContext.Provider>
+  );
 };

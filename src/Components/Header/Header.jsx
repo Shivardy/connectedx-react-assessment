@@ -16,9 +16,9 @@ const Header = () => {
   }, [setDate]);
 
   return (
-    <header data-testid='header'>
+    <header data-testid="header">
       <Routes />
-      <span data-testid='display-time'>{getDateAndTime(date, language)}</span>
+      <span data-testid="display-time">{getDateAndTime(date, language)}</span>
     </header>
   );
 };

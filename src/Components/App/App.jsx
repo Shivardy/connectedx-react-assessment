@@ -1,4 +1,4 @@
-import React, { createContext } from 'react';
+import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { AppContextProvider } from '../AppContextProvider';
 import Content1 from '../Content1/Content1';
@@ -7,11 +7,7 @@ import Header from '../Header/Header';
 import HomePage from '../HomePage/HomePage';
 import './App.css';
 
-export const Context = createContext();
-
 const App = () => {
-  
-
   return (
     <AppContextProvider>
       <BrowserRouter>

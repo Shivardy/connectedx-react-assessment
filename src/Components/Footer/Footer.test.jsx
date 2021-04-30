@@ -8,7 +8,7 @@ describe('<Footer/>', () => {
     expect.assertions(2);
     const { getByText, getByTestId } = render(
       <AppContextProvider>
-          <Footer />
+        <Footer />
       </AppContextProvider>
     );
     expect(getByTestId('footer')).not.toBeNull();

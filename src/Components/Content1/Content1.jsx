@@ -10,12 +10,12 @@ const Content1 = () => {
     return () => clearTimeout(timer);
   }, [setSeconds]);
 
-  return ( 
-    <main className="main" data-testid= "content1">
-        <h1>{t("content1.intro")}</h1>
-        <p>{t("content1.time", { seconds })}</p>
-      </main>
-   );
-}
- 
+  return (
+    <main className="main" data-testid="content1">
+      <h1>{t('content1.intro')}</h1>
+      <p>{t('content1.time', { seconds })}</p>
+    </main>
+  );
+};
+
 export default Content1;

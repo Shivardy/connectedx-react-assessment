@@ -5,6 +5,7 @@ import { useAppContext } from '../AppContextProvider';
 const Footer = () => {
   const { i18n, t } = useTranslation();
   const {dispatch} = useAppContext();
+  
   const handleOnChange = (event) => {
     const {target:{value}} = event;
     i18n.changeLanguage(value);
