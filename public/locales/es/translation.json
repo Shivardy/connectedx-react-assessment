@@ -1,0 +1,13 @@
+{
+  "homepage" : {
+    "intro": "Bienvenido a la prueba práctica de ConnectedX React!",
+    "subtext": "Esta es una aplicación de React desarrollada usando <bold><italic> i18next, react-router-dom, react-hooks. </italic></bold>"
+  },
+  "content1" : {
+    "intro": "Según la ruta a la que llegó en la página Content1",
+    "time": "Has estado en la página de content1 durante {{seconds}} segundos"
+  },
+  "common" : {
+    "changeLanguage": "Elija un idioma : "
+  }
+}

@@ -1,0 +1,75 @@
+:root {
+  --grey: #ccc;
+  --black200: #20232A;
+  --black100: #111;
+  --light-blue100: #61dafb;
+}
+html { font-size: 16px; }
+
+#app-container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+  html { font-size: 8px; }
+}
+
+.main {
+  min-height: 77vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  width: 100%;
+  background-color: var(--black200);
+  color: white;
+  padding: 1%;
+  display: flex;
+  justify-content: space-around;
+}
+
+header span {
+  padding: 1rem 1.6rem;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+
+header li a {
+  padding: 1rem 1.6rem;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+header li a:hover:not(.active) {
+  background-color: var(--black100);
+}
+
+header .active {
+  background-color: var(--light-blue100);
+  color: black;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 10vh;
+  background-color: var(--grey);
+  padding: 1%;
+}

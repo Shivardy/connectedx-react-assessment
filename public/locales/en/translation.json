@@ -1,0 +1,13 @@
+{
+  "homepage" : {
+    "intro": "Welcome to ConnectedX React take-home test!",
+    "subtext": "This is a React app developed using <bold><italic> i18next, react-router-dom, react-hooks. </italic></bold>"
+  },
+  "content1" : {
+    "intro": "Based on the route you ended up on Content1 page",
+    "time": "You have been on content1 page for {{seconds}} seconds"
+  },
+  "common" : {
+    "changeLanguage": "Choose a Language : "
+  }
+}
