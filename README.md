@@ -1,10 +1,12 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is just a sample app as part of a take home assessment from ConnectedX.
 
 ## Available Scripts
 
 In the project directory, you can run:
+### `yarn`
 
 ### `yarn start`
 
